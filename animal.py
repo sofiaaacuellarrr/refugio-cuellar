@@ -1,5 +1,5 @@
 
-
+import cowsay
 class Animal:
 
 
@@ -13,7 +13,8 @@ class Animal:
 
     def presentarse(self):
         text = f'\nHola, soy {self.nombre} ({self.especie} | {self.edad} ã)'
-        
+        cowsay.cow(text)
+
 
     def jugar(self):
         self.energia -= 20
