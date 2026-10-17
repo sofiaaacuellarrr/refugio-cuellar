@@ -1,7 +1,6 @@
 
-'''
-Libreria requerida
-'''
+
+
 cowsay==6.1
 
 
